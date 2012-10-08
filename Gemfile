@@ -7,6 +7,10 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
+group :development, :test do
+	gem 'rspec-rails'
+end
+
 gem 'json'
 
 # Gems used only for assets and not required
